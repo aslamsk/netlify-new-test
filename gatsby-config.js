@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+  
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-netlify-cms`,
     // {
     //   resolve: `gatsby-source-contentful`,
     //   options: {
